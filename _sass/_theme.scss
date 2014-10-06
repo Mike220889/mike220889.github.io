@@ -1,0 +1,25 @@
+html{
+	font-family:arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+	font-family:serif;
+	font-weight:normal;
+}
+
+a{
+	text-decoration:none;
+	color:red;
+	cursor:pointer;
+	&.normal{
+		color:black;
+	}
+	&:hover{
+		text-decoration:underline;
+	}
+}
+
+main, header{
+	max-width:960px;
+	margin:auto;
+}

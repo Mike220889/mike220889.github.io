@@ -3,13 +3,15 @@
 <head>
 	<meta charset="utf-8"/>
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-	<title>{{page.title}}</title>
+	<title>Mike Monteith - {{page.title}}</title>
 </head>
 <body>
 	{% include header.html %}
-	{{content}}
+	<main>
+		{{content}}
+	</main>
 	{% include footer.html %}
 </body>
 </html>
