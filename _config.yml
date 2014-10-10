@@ -1,0 +1,6 @@
+defaults:
+    -
+        values:
+            layout: "base"
+
+permalink: "/blog/:title.html"
