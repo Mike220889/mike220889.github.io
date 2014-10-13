@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/style.css?bust={{site.time | date_to_xmlschema | cgi_escape }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 	<title>Mike Monteith - {{page.title}}</title>
 </head>
