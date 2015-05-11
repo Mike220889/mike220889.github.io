@@ -4,7 +4,12 @@
 @import 'common';
 @import 'theme';
 
+/* Glyph icons */
+$fa-font-path: "fonts";
+@import 'font-awesome/font-awesome';
+
 @import 'header';
 @import 'footer';
 
-@import 'cv';
+@import 'pages/home';
+@import 'pages/cv';

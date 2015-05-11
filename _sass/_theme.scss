@@ -1,3 +1,16 @@
+$susy: (
+	debug: (
+		//image: show,
+	),
+	columns : 12,
+	math: fluid,
+);
+
+@import "susy/susy";
+
+$theme-color-strong: #C34B4B;
+$theme-color-weak: #888888;
+
 html{
 	font-family:arial, sans-serif;
 }
@@ -12,13 +25,14 @@ h1,h2{
 
 a{
 	text-decoration:none;
-	color:red;
+	color:$theme-color-strong;
 	cursor:pointer;
 	&.normal{
 		color:black;
 	}
 	&:hover{
 		text-decoration:underline;
+		color:$theme-color-strong;
 	}
 }
 
@@ -30,4 +44,26 @@ main, header{
 ul{
 	list-style-type:none;
 	padding:0px;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 0.3rem;
+}
+
+strong, .emphasis-strong{
+	font-weight:bold;
+	font-size:100%;
+}
+
+.emphasis-weak{
+	font-weight:normal;
+	color:$theme-color-weak;
+	font-size:90%;
+}
+
+.emphasis-very-weak{
+	font-weight:lighter;
+	color:$theme-color-weak;
+	font-size:80%;
 }

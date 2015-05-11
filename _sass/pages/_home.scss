@@ -1,0 +1,63 @@
+div.introduction{
+	margin-top:2em;
+	text-align:center;
+	p{
+		font-size:140%;
+		margin-bottom:0px;
+
+		span.my-location{
+			@extend .emphasis-weak;
+			display:inline-block;
+		}
+		span.fa{
+			margin-left:1em;
+		}
+	}
+
+	div.keywords ul{
+		li{
+			display:inline-block;
+			&:after{
+				content:" / ";
+				@extend .emphasis-weak
+			}
+			&:last-child:after{
+				content:"";
+			}
+		}
+	}
+}
+
+div.blurb{
+	font-size:120%;
+	margin-bottom:4rem;
+	margin-top:2rem;
+
+	@include container;
+
+	div.blurb-copy{
+		text-align:center;
+		@include susy-media(0px 550px){
+			@include span(12);
+		}
+	}
+}
+
+div.important-links{
+	@include container;
+
+	div.link{
+		@include gallery(3);
+		@include susy-media(0px 550px){
+			@include gallery(6);
+		}
+		text-align:center;
+
+		span.fa{
+			font-size:500%;
+			width:100%;
+			margin-bottom:1rem;
+		}
+
+	}
+}

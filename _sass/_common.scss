@@ -1,7 +1,10 @@
-html{
-	padding:0px;
-	margin:0px;
+@import 'normalize';
+
+img{
+	vertical-align:middle;
 }
+
+/* CONVENIENCE CLASSES */
 
 .hidden{
 	display:none;
@@ -9,9 +12,4 @@ html{
 
 .clearfix{
 	clear:both;
-}
-
-img{
-	border:none;
-	vertical-align:middle;
 }
