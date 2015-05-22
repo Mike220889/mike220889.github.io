@@ -15,16 +15,7 @@ div.introduction{
 	}
 
 	div.keywords ul{
-		li{
-			display:inline-block;
-			&:after{
-				content:" / ";
-				@extend .emphasis-weak
-			}
-			&:last-child:after{
-				content:"";
-			}
-		}
+		@extend %slash-delimited-list;
 	}
 }
 
@@ -44,6 +35,7 @@ div.blurb{
 }
 
 div.important-links{
+	margin-bottom:4rem;
 	@include container;
 
 	div.link{
@@ -52,6 +44,7 @@ div.important-links{
 			@include gallery(6);
 		}
 		text-align:center;
+		margin-bottom:1rem;
 
 		span.fa{
 			font-size:500%;
@@ -59,5 +52,29 @@ div.important-links{
 			margin-bottom:1rem;
 		}
 
+	}
+}
+
+div.portfolio-links{
+	div.work{
+		@include susy-media(small){
+			margin-bottom:4rem;
+		}
+		@include susy-media(large){
+			@include gallery(4);
+		}
+	}
+	h3{
+		margin-bottom:0px;
+	}
+	h4{
+		margin-top:0px;
+		@extend .emphasis-weak;
+	}
+	h3, h4, p, ul.keywords, hr{
+		@extend %small-media-margin;
+	}
+	img{
+		width:100%;
 	}
 }

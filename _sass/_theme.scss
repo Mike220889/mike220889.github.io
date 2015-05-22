@@ -77,3 +77,24 @@ strong, .emphasis-strong{
 	color:$theme-color-weak;
 	font-size:80%;
 }
+
+%slash-delimited-list{
+	li{
+		display:inline-block;
+		&:after{
+			content:" / ";
+			@extend .emphasis-weak
+		}
+		&:last-child:after{
+			content:"";
+		}
+	}
+}
+
+%small-media-margin{
+	@include susy-media(small){
+		margin-left:0.5rem;
+		margin-right:0.5rem;
+	}
+}
+
