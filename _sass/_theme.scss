@@ -20,7 +20,12 @@ h1,h2,h3,h4,h5{
 }
 
 h1,h2{
-	font-family:serif;
+	font-size:2em;
+	font-family:Georgia, serif;
+	font-style:italic;
+	@include susy-media(small){
+		text-align:center;
+	}
 }
 
 a{
