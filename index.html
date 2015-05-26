@@ -54,3 +54,24 @@ title: "Web Developer"
 		</a>
 	</div>
 </div>
+
+<h2>My Work</h2>
+<div class="portfolio-links">
+	{% for work in site.portfolio %}
+		<div class="work">
+			<a href="{{work.url}}">
+				<h3>{{work.title}}</h3>
+				<h4>{{work.subtitle}}</h4>
+			{% if work.main_image %}
+			<img src="/images/{{work.main_image}}"/>
+			{% endif %}
+			</a>
+
+			<ul class="keywords">
+				{% for keyword in work.keywords %}
+					<li>{{keyword}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	{% endfor %}
+</div>

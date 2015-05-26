@@ -11,6 +11,11 @@ $susy: (
 $theme-color-strong: #C34B4B;
 $theme-color-weak: #888888;
 
+$susy-media: (
+	small: 0px 550px,
+	large: 551px,
+);
+
 html{
 	font-family:arial, sans-serif;
 }
@@ -61,6 +66,23 @@ strong, .emphasis-strong{
 	font-size:100%;
 }
 
+hr{
+	height:1px;
+	background-color: $theme-color-strong;
+	border:none;
+}
+
+blockquote{
+	padding-left:1rem;
+	margin-left:1rem;
+	border-left: 3px solid $theme-color-strong;
+
+	cite:before{
+		content: " - ";
+	}
+}
+
+
 .emphasis-weak{
 	font-weight:normal;
 	color:$theme-color-weak;
@@ -72,3 +94,24 @@ strong, .emphasis-strong{
 	color:$theme-color-weak;
 	font-size:80%;
 }
+
+%slash-delimited-list{
+	li{
+		display:inline-block;
+		&:after{
+			content:" / ";
+			@extend .emphasis-weak
+		}
+		&:last-child:after{
+			content:"";
+		}
+	}
+}
+
+%small-media-margin{
+	@include susy-media(0px 960px){
+		margin-left:0.5rem;
+		margin-right:0.5rem;
+	}
+}
+

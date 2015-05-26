@@ -34,7 +34,7 @@ body.cv{
 		list-style-type:disc;
 	}
 
-	@media print{
+	@include susy-media(print){
 		img{
 			display:none;
 		}

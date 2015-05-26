@@ -1,6 +1,16 @@
+collections:
+    portfolio:
+        output: true
+        permalink: "/portfolio/:path/"
+
 defaults:
     -
         values:
             layout: "base"
+    -
+        scope:
+            type: "portfolio"
+        values:
+            layout: "portfolio"
 
 permalink: "/blog/:title.html"
