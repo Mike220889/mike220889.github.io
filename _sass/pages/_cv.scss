@@ -3,6 +3,12 @@ $cv-color-medium: #555555;
 $cv-color-subtle: #888888;
 
 body.cv{
+	@extend %small-media-margin;
+
+	span.updated{
+		@extend .emphasis-weak;
+	}
+
 	strong{
 		color:$cv-color-strong;
 	}

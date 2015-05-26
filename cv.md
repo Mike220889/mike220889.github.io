@@ -1,7 +1,12 @@
 ---
 title: C.V.
 mainClass: cv
+updated: 26-05-2015
 ---
+
+<span class="updated">
+	<span class="fa fa-calendar"></span> Updated: {{page.updated | date_to_string }}
+</span>
 
 ##### *NodeJS, PHP, HTML & CSS*
 
@@ -10,11 +15,11 @@ An experienced full-stack developer with a passion for writing **clean**, **eleg
 ## Knowledge & Experience
 
 |Back-end             | NodeJS, PHP, Linux, Apache, Python, BASH
-|Front-end            | JavaScript, HTML5, CSS3, SASS, Grunt
+|Front-end            | JavaScript, HTML5, CSS3, SASS
 |Database             | MySQL, MongoDB
 |Version control      | Git, Gitolite
 |Native app           | Android SDK (Java), Xcode for iOS (Swift)
-|Frameworks and CMS’s | Express, Yii, Zend, Magento
+|Frameworks and CMS’s | Express, ReactJS, Yii, Zend, Magento
 
 ## Employment
 
