@@ -19,7 +19,7 @@ header{
 		margin:1em auto;
 	}
 
-	@include susy-media(551px){
+	@include susy-media(large){
 		img.headshot{
 			margin-right:1em;
 		}
@@ -32,7 +32,7 @@ header{
 		}
 	}
 
-	@include susy-media(0px 550px){
+	@include susy-media(small){
 		text-align:center;
 
 		.email-link span.fa{

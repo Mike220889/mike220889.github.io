@@ -11,6 +11,11 @@ $susy: (
 $theme-color-strong: #C34B4B;
 $theme-color-weak: #888888;
 
+$susy-media: (
+	small: 0px 550px,
+	large: 551px,
+);
+
 html{
 	font-family:arial, sans-serif;
 }

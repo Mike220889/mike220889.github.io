@@ -37,7 +37,7 @@ div.blurb{
 
 	div.blurb-copy{
 		text-align:center;
-		@include susy-media(0px 550px){
+		@include susy-media(small){
 			@include span(12);
 		}
 	}
@@ -48,7 +48,7 @@ div.important-links{
 
 	div.link{
 		@include gallery(3);
-		@include susy-media(0px 550px){
+		@include susy-media(small){
 			@include gallery(6);
 		}
 		text-align:center;
