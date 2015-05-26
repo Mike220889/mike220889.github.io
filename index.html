@@ -57,9 +57,9 @@ title: "Web Developer"
 
 <h2>My Work</h2>
 <div class="portfolio-links">
-	{% for work in site.data.portfolio %}
+	{% for work in site.portfolio %}
 		<div class="work">
-			<a target="_blank" href="{{work.link.href}}">
+			<a href="{{work.url}}">
 				<h3>{{work.title}}</h3>
 				<h4>{{work.subtitle}}</h4>
 			{% if work.main_image %}

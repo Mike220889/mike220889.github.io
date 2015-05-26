@@ -1,0 +1,35 @@
+---
+layout: base
+---
+
+<section class="description">
+	<h2>{{page.title}}</h2>
+
+	<p class="description">{{page.description}}</p>
+	<div>
+		{{content}}
+	</div>
+</section>
+
+<section class="misc-info">
+	{% if page.role %}
+	<p class="role">
+		<label>Role:</label> {{page.role}}
+	</p>
+	{% endif %}
+
+	<p class="link">
+		<label>Link:</label>
+		<a target="_blank" href="{{page.link.href}}">
+			{{page.link.title}}
+			<span class="fa fa-external-link"></span>
+		</a>
+	</p>
+
+	<label>Technology:</label>
+	<ul>
+		{% for keyword in page.keywords %}
+			<li>{{keyword}}</li>
+		{% endfor %}
+	</ul>
+</section>

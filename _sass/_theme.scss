@@ -66,6 +66,23 @@ strong, .emphasis-strong{
 	font-size:100%;
 }
 
+hr{
+	height:1px;
+	background-color: $theme-color-strong;
+	border:none;
+}
+
+blockquote{
+	padding-left:1rem;
+	margin-left:1rem;
+	border-left: 3px solid $theme-color-strong;
+
+	cite:before{
+		content: " - ";
+	}
+}
+
+
 .emphasis-weak{
 	font-weight:normal;
 	color:$theme-color-weak;
@@ -92,7 +109,7 @@ strong, .emphasis-strong{
 }
 
 %small-media-margin{
-	@include susy-media(small){
+	@include susy-media(0px 960px){
 		margin-left:0.5rem;
 		margin-right:0.5rem;
 	}

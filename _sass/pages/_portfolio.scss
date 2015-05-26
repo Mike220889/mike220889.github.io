@@ -1,0 +1,23 @@
+body.portfolio{
+	@extend %small-media-margin;
+
+	section.description{
+		padding-bottom:1rem;
+	}
+
+	section.misc-info{
+		label{
+			display:block;
+			@extend .emphasis-weak;
+		}
+		ul{
+			margin-top:0px;
+		}
+	}
+
+	video{
+		width:100%;
+		max-width:640px;
+	}
+
+}

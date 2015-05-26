@@ -55,6 +55,10 @@ div.important-links{
 	}
 }
 
+h2{
+	@extend %small-media-margin;
+}
+
 div.portfolio-links{
 	div.work{
 		@include susy-media(small){
@@ -76,5 +80,19 @@ div.portfolio-links{
 	}
 	img{
 		width:100%;
+	}
+}
+
+div.portfolio-links{
+	ul{
+		li{
+			display:inline-block;
+		}
+		li:after{
+			content: ", ";
+		}
+		li:last-child:after{
+			content: ".";
+		}
 	}
 }
