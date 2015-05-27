@@ -22,7 +22,7 @@ A heavy use of CSS animations and JavaScript animation frames helped to create a
 
 Launched in Spain, Portugal, Germany and France.
 
-<video controls>
+<video controls poster="/videos/CUPRA_AwardEntry_640x360.jpg">
 	<source src="/videos/CUPRA_AwardEntry_640x360.mp4">
 	<source src="/videos/CUPRA_AwardEntry_640x360.webm">
 </video>
