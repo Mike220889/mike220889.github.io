@@ -25,9 +25,9 @@ An experienced full-stack developer with a passion for writing **clean**, **eleg
 
 ### Movement Digital Ltd.
 
-##### *Developer:* Jan 2012 – Aug 2014  
+##### **Lead Developer**: Aug 2014 – present
 
-##### *Lead Developer:* Aug 2014 - present
+##### **Developer**: Jan 2012 – Aug 2014
 
 Involved in the complete development lifecycle of responsive websites and mobile apps for external clients and internal projects.
 
@@ -43,7 +43,7 @@ Involved in the complete development lifecycle of responsive websites and mobile
 
 ### Couturelab / Giftlab Ltd.
 
-##### *Junior Developer:* Jan 2011 – Dec 2011
+##### **Junior Developer**: Jan 2011 – Dec 2011
 
 Assisting lead developers to maintain and update multiple e-commerce websites. Managing the launch of additional sites and integrating legacy systems to improve internal workflow.
 
