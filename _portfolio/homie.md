@@ -13,7 +13,7 @@ keywords:
 role: Sole Developer
 ---
 
-Created an iPhone app to help people explore the city by giving &lsquo;as the crow flies&rsquo; direction and distance information to a given point.
+An iPhone app to help people explore the city by giving &lsquo;as the crow flies&rsquo; direction and distance information to a given point.
 
 > Homie is a navigation app focused on simplicity, designed for adventure.
 > Because you don’t always need a map. You just need to know the way to go.
