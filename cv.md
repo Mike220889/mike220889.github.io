@@ -23,9 +23,13 @@ An experienced full-stack developer with a passion for writing **clean**, **eleg
 
 ## Employment
 
+### Self-Employed
+
+##### **Web Developer**: Jun 2015 - present
+
 ### Movement Digital Ltd.
 
-##### **Lead Developer**: Aug 2014 – present
+##### **Lead Developer**: Aug 2014 – Jun 2015
 
 ##### **Developer**: Jan 2012 – Aug 2014
 
