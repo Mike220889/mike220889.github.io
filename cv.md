@@ -1,7 +1,7 @@
 ---
 title: C.V.
 mainClass: cv
-updated: 26-05-2015
+updated: 24-09-2015
 ---
 
 <span class="updated">
@@ -27,11 +27,13 @@ An experienced full-stack developer with a passion for writing **clean**, **eleg
 
 ##### **Web Developer**: Jun 2015 - present
 
+Full-stack web development and technical consultancy.
+
 ### Movement Digital Ltd.
 
 ##### **Lead Developer**: Aug 2014 – Jun 2015
 
-##### **Developer**: Jan 2012 – Aug 2014
+##### **Developer**: Dec 2011 – Aug 2014
 
 Involved in the complete development lifecycle of responsive websites and mobile apps for external clients and internal projects.
 
@@ -64,5 +66,3 @@ Assisting lead developers to maintain and update multiple e-commerce websites. M
 ## Education
 
 Loughborough University Physics B.Sc. 2:1  
-A-Levels in Mathematics, Physics and Music Technology  
-10 GCSEs A-C including English, Maths & Science  
