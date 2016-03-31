@@ -1,6 +1,7 @@
 ---
 title: '#SQUADVERTISER'
 subtitle: Responsive web
+priority: 100,
 main_image: squadvertiser.jpg
 link:
   title: http://www.squadvertiser.com

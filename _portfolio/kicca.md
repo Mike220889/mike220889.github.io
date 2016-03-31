@@ -1,6 +1,7 @@
 ---
 title: KICCA
 subtitle: Responsive web and API
+priority: 50
 main_image: kicca.jpg
 link:
   title: http://kicca.com

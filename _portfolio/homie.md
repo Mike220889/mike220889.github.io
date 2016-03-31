@@ -1,6 +1,7 @@
 ---
 title: Homie
 subtitle: iOS app
+priority: 80
 main_image: homie.jpg
 link:
   title: Get Homie on the app store

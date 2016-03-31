@@ -1,6 +1,7 @@
 ---
 title: SEAT Leon CUPRA
 subtitle: Mobile site
+priority: 90
 main_image: cupra.jpg
 link:
   title: http://m.leoncupra.seat.de

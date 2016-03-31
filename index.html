@@ -57,7 +57,8 @@ title: "Web Developer"
 
 <h2>My Work</h2>
 <div class="portfolio-links">
-	{% for work in site.portfolio %}
+	{% assign portfolio = site.portfolio | sort: 'priority', 'first' %}
+	{% for work in portfolio reversed %}
 		<div class="work">
 			<a href="{{work.url}}">
 				<h3>{{work.title}}</h3>
