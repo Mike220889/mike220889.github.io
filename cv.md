@@ -12,11 +12,6 @@ updated: 17-06-2016
 		<span class="fa fa-print">&nbsp;</span>Print friendly
 	</span>
 </a>  
-<a href="./cv.pdf" class="noprint">
-	<span class="pdf">
-		<span class="fa fa-file-text-o">&nbsp;</span>PDF
-	</span>
-</a>
 
 ##### *JavaScript, NodeJS, HTML & CSS, Android, iOS*
 
