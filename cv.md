@@ -20,7 +20,7 @@ updated: 17-06-2016
 
 ##### *JavaScript, NodeJS, HTML & CSS, Android, iOS*
 
-An experienced **full-stack** developer with a passion for writing **clean**, **elegant** and **maintainable** code. Constantly embracing new technologies and adhering to the latest industry **standards** and **best practices** in order to produce quality **web** and **mobile** applications.
+An experienced **full-stack** developer with a passion for writing **clean**, **elegant** and **maintainable** code. Constantly embracing new technologies and adhering to the latest **standards** and **best practices** in order to produce quality **web** and **mobile** applications.
 
 ## Knowledge & Experience
 
@@ -53,15 +53,15 @@ Involved in the complete development lifecycle of responsive websites and mobile
 
 SEAT, Coca-Cola, Virgin Media, Clarins.
 
-*	Full-stack mobile web development.
-*	Responsive & adaptive design.
-*	Creating app-like mobile experiences for the web.
-*	Technical architecture design.
-*	Rapid proof-of-concept prototyping.
-*	Server administration and automated code deployment.
-*	Cross-device compatibility planning and testing.
-*	Test driven development.
-*	Android and iOS, native and hybrid apps.
+*	Full-stack mobile web development
+*	Responsive & adaptive design
+*	Creating app-like mobile experiences for the web
+*	Technical architecture design
+*	Rapid proof-of-concept prototyping
+*	Server administration and automated code deployment
+*	Cross-device compatibility planning and testing
+*	Test driven development
+*	Android and iOS, native and hybrid apps
 
 ### Couturelab / Giftlab Ltd.
 

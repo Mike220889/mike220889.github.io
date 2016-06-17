@@ -11,7 +11,7 @@ keywords:
   - Web app &amp; API
   - ReactJS
   - JWPlayer video advertising
-role: Developer
+role: Senior Developer
 ---
 
-Developing new features and maintaining legacy code for KICCA's responsive web frontend and backend. Features include social syndication, video advertising, video galleries. 
+Developing new features and maintaining legacy code for KICCA's responsive web front-end and back-end. Features include social syndication, video advertising and video galleries.

@@ -7,7 +7,7 @@ link:
   title: Get Homie on the app store
   href: https://itunes.apple.com/gb/app/homie/id973513165?mt=8
 keywords:
-  - iPhone
+  - iOS
   - Swift
   - CoreGraphics
   - 2D graphics

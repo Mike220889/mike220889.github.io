@@ -12,7 +12,7 @@ keywords:
   - HTML5
   - CSS3
   - Social sharing
-role: Frontend Developer
+role: Front-end Developer
 ---
 
 Fully responsive HTML5 site with complex design elements.
