@@ -1,33 +1,47 @@
 ---
 title: C.V.
 mainClass: cv
-updated: 24-09-2015
+updated: 17-06-2016
 ---
 
 <span class="updated">
 	<span class="fa fa-calendar"></span> Updated: {{page.updated | date_to_string }}
-</span>
+</span>  
+<a onclick="window.print()" class="noprint">
+	<span class="printme">
+		<span class="fa fa-print">&nbsp;</span>Print friendly
+	</span>
+</a>  
+<a href="./cv.pdf" class="noprint">
+	<span class="pdf">
+		<span class="fa fa-file-text-o">&nbsp;</span>PDF
+	</span>
+</a>
 
-##### *NodeJS, PHP, HTML & CSS*
+##### *JavaScript, NodeJS, HTML & CSS, Android, iOS*
 
-An experienced full-stack developer with a passion for writing **clean**, **elegant** and **maintainable** code. Constantly embracing new technologies and adhering to the latest industry **standards** and **best practices** in order to produce quality **web** and **mobile** applications.
+An experienced **full-stack** developer with a passion for writing **clean**, **elegant** and **maintainable** code. Constantly embracing new technologies and adhering to the latest industry **standards** and **best practices** in order to produce quality **web** and **mobile** applications.
 
 ## Knowledge & Experience
 
 |Back-end             | NodeJS, PHP, Linux, Apache, Python, BASH
 |Front-end            | JavaScript, HTML5, CSS3, SASS
+|Native app           | Android SDK (Java), Xcode for iOS (Swift)
+|Frameworks           | Express, React, React Native, Django
 |Database             | MySQL, MongoDB
 |Version control      | Git, Gitolite
-|Native app           | Android SDK (Java), Xcode for iOS (Swift)
-|Frameworks and CMS’s | Express, ReactJS, Yii, Zend, Magento
 
 ## Employment
 
 ### Self-Employed
 
-##### **Web Developer**: Jun 2015 - present
+##### **Developer**: Jun 2015 - present
 
-Full-stack web development and technical consultancy.
+Full-stack web development, mobile development and technical consultancy.  
+
+Samsung, Microsoft Xbox, KICCA.
+
+See <span class="printlink">[portfolio](http://mikemonteith.com/portfolio/)</span> for more details.
 
 ### Movement Digital Ltd.
 
@@ -36,6 +50,8 @@ Full-stack web development and technical consultancy.
 ##### **Developer**: Dec 2011 – Aug 2014
 
 Involved in the complete development lifecycle of responsive websites and mobile apps for external clients and internal projects.
+
+SEAT, Coca-Cola, Virgin Media, Clarins.
 
 *	Full-stack mobile web development.
 *	Responsive & adaptive design.

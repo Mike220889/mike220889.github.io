@@ -1,8 +1,12 @@
 body.cv{
 	@extend %small-media-margin;
 
-	span.updated{
+	span.updated, span.printme, span.pdf{
 		@extend .emphasis-weak;
+	}
+
+	h3{
+		text-decoration: underline;
 	}
 
 	h5{
@@ -25,6 +29,15 @@ body.cv{
 	@include susy-media(print){
 		img{
 			display:none;
+		}
+
+		span.printlink a[href]:after{
+			content: " (" attr(href) ") ";
+			color: $theme-color-weak;
+		}
+
+		.noprint{
+			display: none;
 		}
 	}
 
