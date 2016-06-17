@@ -1,0 +1,9 @@
+---
+Title: Portfolio
+mainClass: portfolio
+---
+
+<h1>Portfolio</h1>
+
+{% assign portfolio = site.portfolio | sort: 'priority', 'first' %}
+{% include portfolio_links.html portfolio=portfolio %}

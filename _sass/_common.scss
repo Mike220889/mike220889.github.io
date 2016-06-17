@@ -13,3 +13,42 @@ img{
 .clearfix{
 	clear:both;
 }
+
+/* PORTFOLIO LINKS */
+div.portfolio-links{
+	div.work{
+		@include susy-media(small){
+			margin-bottom:4rem;
+		}
+		@include susy-media(large){
+			@include gallery(4);
+		}
+	}
+	h3{
+		margin-bottom:0px;
+	}
+	h4{
+		margin-top:0px;
+		@extend .emphasis-weak;
+	}
+	h3, h4, p, ul.keywords, hr{
+		@extend %small-media-margin;
+	}
+	img{
+		width:100%;
+	}
+}
+
+div.portfolio-links{
+	ul{
+		li{
+			display:inline-block;
+		}
+		li:after{
+			content: ", ";
+		}
+		li:last-child:after{
+			content: ".";
+		}
+	}
+}

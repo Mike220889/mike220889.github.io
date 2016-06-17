@@ -45,6 +45,12 @@ a{
 		color:$theme-color-strong;
 	}
 }
+a.main-action{
+	background-color: $theme-color-strong;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
 
 main, header{
 	max-width:960px;
@@ -114,4 +120,3 @@ blockquote{
 		margin-right:0.5rem;
 	}
 }
-
