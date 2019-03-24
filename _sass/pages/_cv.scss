@@ -5,8 +5,13 @@ body.cv{
 		@extend .emphasis-weak;
 	}
 
+	h2 {
+		margin-bottom: 0.5em;
+	}
+
 	h3{
 		font-size: 150%;
+		margin-bottom: 0.5em;
 	}
 
 	h5{

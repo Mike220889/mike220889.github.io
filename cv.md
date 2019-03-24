@@ -1,7 +1,7 @@
 ---
 title: C.V.
 mainClass: cv
-updated: 17-06-2016
+updated: 24-03-2019
 ---
 
 <span class="updated">
@@ -13,18 +13,17 @@ updated: 17-06-2016
 	</span>
 </a>  
 
-##### *JavaScript, NodeJS, HTML & CSS, Android, iOS*
+##### *JavaScript, Python, NodeJS, HTML & CSS, Android, iOS*
 
 An experienced **full-stack** developer with a passion for writing **clean**, **elegant** and **maintainable** code. Constantly embracing new technologies and adhering to the latest **standards** and **best practices** in order to produce quality **web** and **mobile** applications.
 
 ## Knowledge & Experience
 
-|Back-end             | NodeJS, PHP, Linux, Apache, Python, BASH
+|Back-end             | NodeJS, Python, Docker, Linux, BASH
 |Front-end            | JavaScript, HTML5, CSS3, SASS
 |Native app           | Android SDK (Java), Xcode for iOS (Swift)
 |Frameworks           | Express, React, React Native, Django
 |Database             | MySQL, MongoDB
-|Version control      | Git, Gitolite
 
 ## Employment
 
@@ -34,7 +33,7 @@ An experienced **full-stack** developer with a passion for writing **clean**, **
 
 Full-stack web development, mobile development and technical consultancy.  
 
-Samsung, Microsoft Xbox, KICCA.
+NHS, Samsung, Microsoft Xbox, KICCA.
 
 See <span class="printlink">[portfolio](http://mikemonteith.com/portfolio/)</span> for more details.
 
@@ -48,32 +47,12 @@ Involved in the complete development lifecycle of responsive websites and mobile
 
 SEAT, Coca-Cola, Virgin Media, Clarins.
 
-*	Full-stack mobile web development
-*	Responsive & adaptive design
-*	Creating app-like mobile experiences for the web
-*	Technical architecture design
-*	Rapid proof-of-concept prototyping
-*	Server administration and automated code deployment
-*	Cross-device compatibility planning and testing
-*	Test driven development
-*	Android and iOS, native and hybrid apps
-
 ### Couturelab / Giftlab Ltd.
 
 ##### **Junior Developer**: Jan 2011 – Dec 2011
 
-Assisting lead developers to maintain and update multiple e-commerce websites. Managing the launch of additional sites and integrating legacy systems to improve internal workflow.
+Maintaining and updating e-commerce websites.
 
-*	Full-stack web development
-*	Developing bespoke CMS and the Magento e-commerce platform
-*	Creating bespoke Magento modules
-*	Implementing 3rd party Magento modules
-*	Automating transfer of products, images, and customer data from old stock system to new Magento system
-*	Agile methodology
-*	Implementing Photoshop designs in HTML & CSS
-*	Card payment and PayPal integration
-*	Facebook API development
-
-## Education
+## Formal Education
 
 Loughborough University Physics B.Sc. 2:1  
