@@ -54,14 +54,3 @@ title: "Web &amp Mobile Developer"
 		</a>
 	</div>
 </div>
-
-<h2>My Work</h2>
-
-{% assign portfolio = site.portfolio | sort: 'priority', 'first' %}
-{% assign portfolio = portfolio | where:"homepage",true %}
-
-{% include portfolio_links.html portfolio=portfolio %}
-
-<p class="see-more">
-	<a class="main-action" href="/portfolio">See more</a>
-</p>
