@@ -1,7 +1,7 @@
 ---
 title: C.V.
 mainClass: cv
-updated: 24-03-2019
+updated: 25-05-2022
 ---
 
 <span class="updated">
@@ -19,11 +19,12 @@ An experienced **full-stack** developer with a passion for writing **clean**, **
 
 ## Knowledge & Experience
 
-|Back-end             | NodeJS, Python, Docker, Linux, BASH
+|Back-end             | NodeJS, Python, Linux, BASH
 |Front-end            | JavaScript, HTML5, CSS3, SASS
+|Infrastructure       | AWS, Azure, Docker, Kubernetes, Terraform
 |Native app           | Android SDK (Java), Xcode for iOS (Swift)
-|Frameworks           | Express, React, React Native, Django
-|Database             | MySQL, MongoDB
+|Frameworks           | Django, Express, React, React Native
+|Database             | PostgreSQL, MySQL, MongoDB
 
 ## Employment
 
@@ -33,7 +34,7 @@ An experienced **full-stack** developer with a passion for writing **clean**, **
 
 Full-stack web development, mobile development and technical consultancy.  
 
-NHS, Samsung, Microsoft Xbox, KICCA.
+NHS Digital, Samsung, Microsoft Xbox, Livi, KICCA.
 
 See <span class="printlink">[portfolio](http://mikemonteith.com/portfolio/)</span> for more details.
 
