@@ -6,7 +6,7 @@ homepage: true
 main_image: cupra.jpg
 link:
   title: http://m.leoncupra.seat.de
-  href: http://m.leoncupra.seat.de/?smartphone=1   
+  href: http://m.leoncupra.seat.de/?smartphone=1
 keywords:
   - Responsive design
   - CSS animations

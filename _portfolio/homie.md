@@ -19,6 +19,6 @@ An iPhone app to help people explore the city by giving &lsquo;as the crow flies
 > Homie is a navigation app focused on simplicity, designed for adventure.
 > Because you don’t always need a map. You just need to know the way to go.
 >
-> Just tap in an address to find out how far you are from your destination and the direction to head in. 
+> Just tap in an address to find out how far you are from your destination and the direction to head in.
 >
 > With Homie, you can travel with your head up and your eyes wide open. You’ll be amazed by what you find.

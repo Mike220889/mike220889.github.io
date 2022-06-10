@@ -6,12 +6,12 @@ updated: 25-05-2022
 
 <span class="updated">
 	<span class="fa fa-calendar"></span> Updated: {{page.updated | date_to_string }}
-</span>  
+</span>
 <a onclick="window.print()" class="noprint">
 	<span class="printme">
 		<span class="fa fa-print">&nbsp;</span>Print friendly
 	</span>
-</a>  
+</a>
 
 ##### *JavaScript, Python, NodeJS, HTML & CSS, Android, iOS*
 
@@ -32,7 +32,7 @@ An experienced **full-stack** developer with a passion for writing **clean**, **
 
 ##### **Developer**: Jun 2015 - present
 
-Full-stack web development, mobile development and technical consultancy.  
+Full-stack web development, mobile development and technical consultancy.
 
 NHS Digital, Samsung, Microsoft Xbox, Livi, KICCA.
 
@@ -56,4 +56,4 @@ Maintaining and updating e-commerce websites.
 
 ## Formal Education
 
-Loughborough University Physics B.Sc. 2:1  
+Loughborough University Physics B.Sc. 2:1
