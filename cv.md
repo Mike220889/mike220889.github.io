@@ -1,30 +1,31 @@
 ---
 title: C.V.
 mainClass: cv
-updated: 25-05-2022
+updated: 22-03-2023
 ---
 
 <span class="updated">
 	<span class="fa fa-calendar"></span> Updated: {{page.updated | date_to_string }}
 </span>
+|
 <a onclick="window.print()" class="noprint">
 	<span class="printme">
 		<span class="fa fa-print">&nbsp;</span>Print friendly
 	</span>
 </a>
 
-##### *JavaScript, Python, NodeJS, HTML & CSS, Android, iOS*
+##### *JavaScript, TypeScript, Python, Node.js, HTML & CSS, Android, iOS*
 
 An experienced **full-stack** developer with a passion for writing **clean**, **elegant** and **maintainable** code. Constantly embracing new technologies and adhering to the latest **standards** and **best practices** in order to produce quality **web** and **mobile** applications.
 
 ## Knowledge & Experience
 
-|Back-end             | NodeJS, Python, Linux, BASH
+|Back-end             | TypeScript, JavaScript, Node.js, Python, Linux
 |Front-end            | JavaScript, HTML5, CSS3, SASS
 |Infrastructure       | AWS, Azure, Docker, Kubernetes, Terraform
 |Native app           | Android SDK (Java), Xcode for iOS (Swift)
 |Frameworks           | Django, Express, React, React Native
-|Database             | PostgreSQL, MySQL, MongoDB
+|Database             | PostgreSQL, MongoDB, MySQL
 
 ## Employment
 
@@ -34,7 +35,14 @@ An experienced **full-stack** developer with a passion for writing **clean**, **
 
 Full-stack web development, mobile development and technical consultancy.
 
-NHS Digital, Samsung, Microsoft Xbox, Livi, KICCA.
+Clients include:
+
+* NHS Digital
+* Samsung
+* Microsoft Xbox
+* Reach PLC
+* Livi
+* KICCA
 
 See <span class="printlink">[portfolio](http://mikemonteith.com/portfolio/)</span> for more details.
 
