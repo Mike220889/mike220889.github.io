@@ -39,10 +39,7 @@ div.important-links{
 	@include container;
 
 	div.link{
-		@include gallery(3);
-		@include susy-media(small){
-			@include gallery(6);
-		}
+		@include gallery(4);
 		text-align:center;
 		margin-bottom:1rem;
 
